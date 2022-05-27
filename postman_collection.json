@@ -1,0 +1,39 @@
+{
+    "info": {
+        "_postman_id": "4b485c2f-84bc-44f2-917d-ba1d083a526f",
+        "name": "has.to.be Coding Challenge",
+        "description": "CSMS (charging station management system)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "rate",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n \"rate\": { \"energy\": 0.3, \"time\": 2, \"transaction\": 1 },\r\n \"cdr\": { \"meterStart\": 1204307, \"timestampStart\": \"2021-04-05T10:04:00Z\", \"meterStop\": 1215230, \"timestampStop\":\r\n\"2021-04-05T11:27:00Z\" }\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:3000/rate",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000",
+                    "path": [
+                        "rate"
+                    ]
+                },
+                "description": "Establishing a price for a charging process by applying a rate to the CDR (charge detail record) "
+            },
+            "response": []
+        }
+    ]
+}
