@@ -4,7 +4,6 @@ import { RateDto } from './dto/rate.dto';
 import { Bill } from './interfaces/bill';
 import { RateService } from './rate.service';
 
-
 /**
  * Rate Controller to handle rate calculation
  */

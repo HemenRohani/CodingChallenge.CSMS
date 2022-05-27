@@ -2,6 +2,7 @@ import { ApiProperty } from "@nestjs/swagger";
 import { Type } from "class-transformer";
 import { IsDate, IsInt, IsPositive } from "class-validator";
 
+
 /**
  * charge detail record
  */

@@ -2,6 +2,7 @@ import { BadRequestException, Injectable } from '@nestjs/common';
 import { RateDto } from './dto/rate.dto';
 import { Bill } from './interfaces/bill';
 
+
 /**
  * RateService is a service to calculate price of charging process.
  */

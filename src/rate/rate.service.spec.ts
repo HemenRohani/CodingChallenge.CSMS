@@ -2,6 +2,7 @@ import { BadRequestException } from '@nestjs/common';
 import { Test, TestingModule } from '@nestjs/testing';
 import { RateService } from './rate.service';
 
+
 describe('RateService calculate', () => {
   let service: RateService;
 

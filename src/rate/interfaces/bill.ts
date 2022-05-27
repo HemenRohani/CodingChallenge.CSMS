@@ -1,7 +1,6 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { BillComponent } from "./bill-component";
 
-
 /**
  * Bill of charge process rating
  */

@@ -4,6 +4,7 @@ import { ValidateNested } from "class-validator";
 import { ChargeDetailRecord } from "../interfaces/charge-detail-record";
 import { Rate } from "../interfaces/rate";
 
+
 /**
  * Rating Data Transfer Object 
  */
