@@ -72,4 +72,4 @@ I think calculate consumed energy and time duration in client-side can reduce th
 
 # -2 Store rate info in server-side
 
-In my opinion get rate info({ "energy": 0.3, "time": 2, "transaction": 1 }) in request can make some problem and it's better to get this data from database.
+In my opinion get rate info(`{ "energy": 0.3, "time": 2, "transaction": 1 }`) in request can make some problem and it's better to get this data from database.
