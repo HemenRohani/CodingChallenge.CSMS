@@ -61,5 +61,15 @@ In order to use this repository:
 
     npm run compodoc  // to start code documentaion on [http://localhost:7000](http://127.0.0.1:7000)
 
-You can import postman_collection.json to Postman for testing api end point.
+You can import [postman_collection.json](postman_collection.json) in Postman for testing API.
 
+
+### Challenge 2 : Suggest improvements to the API design
+
+# -1 Calculate consumed energy and time duration in client
+
+I think calculate consumed energy and time duration in client-side can reduce the payload size and reduce server proccessing.
+
+# -2 Store rate info in server-side
+
+In my opinion get rate info({ "energy": 0.3, "time": 2, "transaction": 1 }) in request can make some problem and it's better to get this data from database.
