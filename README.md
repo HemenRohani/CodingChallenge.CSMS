@@ -59,7 +59,7 @@ In order to use this repository:
 
     npm run test:e2e  // to run end to end test
 
-    npm run compodoc  // to start code documentaion on [http://localhost:7000](http://127.0.0.1:7000)
+    npm run compodoc  // to start code documentaion on http://127.0.0.1:7000
 
 You can import [postman_collection.json](postman_collection.json) in Postman for testing API.
 
