@@ -1,6 +1,10 @@
+# configs
+package-lock.json
+
 # compiled output
 /dist
 /node_modules
+/documentation
 
 # Logs
 logs
